@@ -1,0 +1,4 @@
+{{ form_start(form, {attr: {'id': 'tinymce_form', 'data-post-id': post.id}}) }}
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}
